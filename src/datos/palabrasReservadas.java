@@ -9,15 +9,15 @@ public class palabrasReservadas {
          */
 
         // 1. Tipos de datos primitivos
-        byte ejemploByte = 100; // 8-bit entero con signo (-128 a 127)
-        short ejemploShort = 1000; // 16-bit entero con signo
+        // byte ejemploByte = 100; // 8-bit entero con signo (-128 a 127)
+        // short ejemploShort = 1000; // 16-bit entero con signo
         int ejemploInt = 100000; // 32-bit entero con signo
-        long ejemploLong = 1000000000L; // 64-bit entero con signo (necesita 'L')
-        float ejemploFloat = 3.14f; // 32-bit decimal (necesita 'f')
-        double ejemploDouble = 3.141592; // 64-bit decimal
+        // long ejemploLong = 1000000000L; // 64-bit entero con signo (necesita 'L')
+        // float ejemploFloat = 3.14f; // 32-bit decimal (necesita 'f')
+        // double ejemploDouble = 3.141592; // 64-bit decimal
         char ejemploChar = 'A'; // Carácter Unicode (16-bit)
         boolean ejemploBoolean = true; // true o false
-        String ejemploString = "Cadena de texto";
+        // String ejemploString = "Cadena de texto";
 
         // 2. Control de flujo
         if (ejemploBoolean) { // if: ejecuta si la condición es true
@@ -57,8 +57,11 @@ public class palabrasReservadas {
 
         // 4. Otros importantes
         final double PI = 3.1416; // final: constante (no se puede modificar)
+        System.out.println(PI);
         try { // try-catch: manejo de excepciones
             int division = 10 / 0;
+            System.out.println(division);
+
         } catch (ArithmeticException e) {
             System.out.println("Error: División por cero");
         }
