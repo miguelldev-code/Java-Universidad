@@ -1,6 +1,6 @@
 package datos;
 
-public class palabrasReservadas {
+public class PalabrasReservadas {
     public static void main(String[] args) {
         /**
          * Este programa demuestra las palabras reservadas (keywords) en Java.
